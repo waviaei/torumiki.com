@@ -1,5 +1,7 @@
 ## Changelog
 
+- v0.3.1
+  - Move styles written in `<head>` to `style.scss`
 - v0.3.0
   - Add Yarn
   - Add gulp, gulp-sass, gulp-postcss
