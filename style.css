@@ -5551,3 +5551,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+header, main, footer {
+  max-width: 450px; }
+
+figure {
+  width: 35% !important; }
