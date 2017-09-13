@@ -1,6 +1,6 @@
 {
   "name": "torumiki.com",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "main": "index.js",
   "repository": "git@github.com:waviaei/torumiki.com.git",
   "author": "Toru Miki <waviaei@gmail.com>",
@@ -10,6 +10,8 @@
     "popper.js": "^1.11.0"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-sass": "^3.1.0"

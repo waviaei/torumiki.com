@@ -1,5 +1,10 @@
 ## Changelog
 
+- v0.4.0
+  - Implemented autoprefixer for next Monday
+  - Implemented cssnano
+  - Rename the directory from `sass` to src
+  - Remove including jquery-3.2.1.slim.min.js, popper.min.js, and bootstrap.min.js
 - v0.3.1
   - Move styles written in `<head>` to `style.scss`
 - v0.3.0
