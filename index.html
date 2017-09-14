@@ -16,6 +16,14 @@
       ga('create', 'UA-105403896-1', 'auto');
       ga('send', 'pageview');
       function handleOutboundLinkClicks(event){ga('send','event',{eventCategory:'Outbound Link',eventAction:'click',eventLabel:event.target.href});}
+      function handleOutboundLinkClicks(event) {
+        ga('send', 'event', {
+          eventCategory: 'Outbound Link',
+          eventAction: 'click',
+          eventLabel: event.target.href,
+          transport: 'beacon'
+        });
+      }
     </script>
     <div class="container">
       <header class="mx-auto text-center my-5">
@@ -29,13 +37,13 @@
         <p>I currently live and work in Tokyo. In past, I have lived in Osaka and  England. I relish to some good coffee, <i>sake</i>, photography, and football.</p>
         <p>This is my personal profile site. You can also find me in these places and some others.</p>
         <ul>
-          <li><a href="https://waviaei.com">Blog (in Japanese)</a></li>
-          <li><a href="https://twitter.com/waviaei">Twitter (@waviaei)</a></li>
-          <li><a href="https://github.com/waviaei">GitHub</a></li>
-          <li><a href="https://www.instagram.com/waviaei">Instagram</a></li>
-          <li><a href="https://profiles.wordpress.org/toru">WordPress.org</a></li>
+          <li><a href="https://waviaei.com" onclick="handleOutboundLinkClicks('https://waviaei.com');">Blog (in Japanese)</a></li>
+          <li><a href="https://twitter.com/waviaei" onclick="handleOutboundLinkClicks('https://twitter.com/waviaei');">Twitter (@waviaei)</a></li>
+          <li><a href="https://github.com/waviaei" onclick="handleOutboundLinkClicks('https://github.com/waviaei');">GitHub</a></li>
+          <li><a href="https://www.instagram.com/waviaei" onclick="handleOutboundLinkClicks('https://www.instagram.com/waviaei');">Instagram</a></li>
+          <li><a href="https://profiles.wordpress.org/toru" onclick="handleOutboundLinkClicks('https://profiles.wordpress.org/toru');">WordPress.org</a></li>
           <li>Facebook</li>
-          <li><a href="http://b.hatena.ne.jp/waviaei/bookmark">Hatena Bookmark</a></li>
+          <li><a href="http://b.hatena.ne.jp/waviaei/bookmark" onclick="handleOutboundLinkClicks('http://b.hatena.ne.jp/waviaei/bookmark');">Hatena Bookmark</a></li>
         </ul>
       </main>
       <footer class="mx-auto text-center">
