@@ -3,17 +3,5 @@
   "version": "0.4.0",
   "main": "index.js",
   "repository": "git@github.com:waviaei/torumiki.com.git",
-  "author": "Toru Miki <waviaei@gmail.com>",
-  "dependencies": {
-    "bootstrap": "next",
-    "jquery": "^3.0.0",
-    "popper.js": "^1.11.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "cssnano": "^3.10.0",
-    "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.0",
-    "gulp-sass": "^3.1.0"
-  }
+  "author": "Toru Miki <1564991+waviaei@users.noreply.github.com>"
 }
